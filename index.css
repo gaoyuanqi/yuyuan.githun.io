@@ -1,6 +1,6 @@
 
 
-<!--黑色文本、字体大小、行距、填充、文本居中-->
+
 body{
 color:black;
 font-site:150pt;
@@ -17,7 +17,7 @@ text-decoration:none;
 }
 
 <!--各边宽度为5像素的灰色单线边框、黑色文本、白色背景-->
-div.边框{
+div.a{
   border:5px gray solid;
   color:black;
   bgcolor:white;
