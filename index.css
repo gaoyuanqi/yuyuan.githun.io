@@ -10,13 +10,12 @@ text-align:center;
 
 }
 
-<!--关闭链接下划线-->
+
 a{
 text-decoration:none;
 
 }
 
-<!--各边宽度为5像素的灰色单线边框、黑色文本、白色背景-->
 div.a{
   border:5px gray solid;
   color:black;
