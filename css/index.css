@@ -1,21 +1,37 @@
 
+<!--字体系列、背景颜色、文本颜色、文本大小、行距、填充-->
 body{
-color:black;
-font-site:150pt;
+font-family:arial,italic,sans-serif;
+background:#d0d0d0;
+color:gray;
+font-size:20pt;
 line-height:14pt;
 padding:50pt;
-text-align:center;
-
 }
 
-
+<!--关闭链接下划线、文本颜色-->
 a{
 text-decoration:none;
-
+color:gray;
 }
 
-div.lianjie{
-  border:1px gray solid;
-  color:black;
-  bgcolor:red;
+<!--表格大小自动适应、文本居中、文本大小、表格居中、上下和左右间距-->
+table{
+width:100%;
+text-align:center;
+font-size:14pt;
+margin:0px auto;
+border-spacing:40px 20px;
+}
+
+<!--单个表格宽度占总宽度比例、60px高度、白色背景-->
+td{
+width:20%;
+height:60px;
+background:white;
+}
+
+<!--设置透明度background:rgba(0,0,0,0)最后一位0~1为透明度-->
+.rgba{
+background:#d0d0d0;
 }
