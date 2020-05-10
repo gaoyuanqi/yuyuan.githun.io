@@ -17,4 +17,4 @@ document.write("<strong>Local time:</strong>" + localtime + "<br/>");
 
 now = new Date();
 localtime = now.toString();
-document.write("<strong>Local time:</strong>" + localtime + "<br/>");
+document.write(localtime + "<br/>" + "<br/>");
