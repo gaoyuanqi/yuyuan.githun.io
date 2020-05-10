@@ -1,19 +1,20 @@
 
-//<!--Hide the script from old browsers
-now = new Date();
+
+/*
+<!--Hide the script from old browsers Stop hiding the script -->
+localtime = now.toString();
 hours = now.getHours();
 mins = now.getMinutes();
 secs = now.getSeconds();
-localtime = now.toString();
+utctime = now.toGMTString();
+document.write("<strong>UTC time:</strong>" + utctime);
+document.write("<h1>");
+document.write(hours + ":" + mins +":" + secs);
+document.write("</h1>");
 document.write("<strong>Local time:</strong>" + localtime + "<br/>");
-
-/*
-  utctime = now.toGMTString();
-  document.write("<strong>UTC time:</strong>" + utctime);
-  document.write(document.lastModified + "<br/>");
 */
 
-  document.write("<h1>");
-  document.write(hours + ":" + mins +":" + secs);
-  document.write("</h1>");
-  // Stop hiding the script -->
+
+
+now = new Date();
+document.write(document.lastModified + "<br/>");
