@@ -1,4 +1,6 @@
 
+
+
 /*字体系列、背景颜色、文本颜色、文本大小、行距、填充*/
 body{
 font-family:arial,italic,sans-serif;
@@ -24,14 +26,9 @@ margin:0px auto;
 border-spacing:40px 20px;
 }
 
-/*单个表格宽度占总宽度比例、60px高度、白色背景*/
+/*单个表格宽度占总宽度比例、60px高度、透明背景（设置透明度background:rgba(0,0,0,0)最后一位0.1~1为透明度）*/
 td{
 width:20%;
 height:60px;
-background:white;
-}
-
-/*设置透明度background:rgba(0,0,0,0)最后一位0~1为透明度*/
-.rgba{
 background:#d0d0d0;
 }
