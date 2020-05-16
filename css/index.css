@@ -1,44 +1,45 @@
 
 
 
-/*字体系列、背景颜色、文本颜色、文本大小、行距、填充*/
+/*字体系列、背景颜色、文本颜色、文本居中、文本大小、行距、边距、填充*/
 body{
-    font-family:arial,italic,sans-serif;
-    background:#d0d0d0;
-    color:gray;
-    font-size:20pt;
-    line-height:14pt;
-    padding-left:100pt;
-    padding-right:100pt;
-    padding-top:50pt;
-    padding-bottom:50pt;
+    font-family: arial,italic,sans-serif;
+    background-color: white;
+    text-align: center;
+    line-height: 14pt;
+    margin: 80px 100px;
+    padding: 10px;
     }
     
 
 /*关闭链接下划线、文本颜色*/
 a{
-    text-decoration:none;
-    color:gray;
+    text-decoration: none;
+    color: gray;
     }
+
 
 /*指针放在链接上时显示的颜色（未单击）*/
 a:hover{
     color: rgb(194, 30, 126);
 }
 
-/*表格大小自动适应、文本居中、文本大小、表格居中、上下和左右间距*/
+
+/*表格居中、左右及上下边距、列宽、行高、填充、文本居中*/
 table{
-    width:100%;
-    text-align:center;
-    font-size:14pt;
-    margin:0px auto;
-    border-spacing:40px 20px;
-    }
+    margin: 0px auto;
+    border-spacing:20px 10px;
+    width: 820px;
+    height: 50px;
+    padding: 20px 25px;
+    text-align: center;
+}
 
-
-/*单个表格宽度占总宽度比例、60px高度、透明背景（设置透明度background:rgba(0,0,0,0)最后一位0.1~1为透明度）*/
+/*表格为1px的白色单线边框、背景、列宽比例、填充*/
 td{
-    width:20%;
-    height:60px;
-    background:#d0d0d0;
-    }
+    border: 1px solid white;
+    background-color: #d0d0d0;
+    width: 25%;
+    padding: 15px 25px;
+    
+}

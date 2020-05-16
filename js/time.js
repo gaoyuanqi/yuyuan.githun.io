@@ -1,7 +1,7 @@
 
 
 /*
-<!--Hide the script from old browsers Stop hiding the script -->
+ //Stop hiding the script -->
 localtime = now.toString();
 hours = now.getHours();
 mins = now.getMinutes();
@@ -12,6 +12,9 @@ document.write("<strong>UTC time:</strong>" + utctime);
 document.write("<h1>" + hours + ":" + mins +":" + secs + "</h1>");
 document.write("<strong>Local time:</strong>" + localtime + "<br/>");
 */
+
+
+
 
 /*百度网站统计代码*/
 var _hmt = _hmt || [];
@@ -26,3 +29,5 @@ var _hmt = _hmt || [];
 now = new Date();
 localtime = now.toString();
 document.write(localtime + "<br/>" + "<br/>");
+
+
