@@ -1,45 +1,75 @@
 
 
 
-/*字体系列、背景颜色、文本颜色、文本居中、文本大小、行距、边距、填充*/
+/*字体系列、文本大小、背景颜色、文本颜色、文本居中、行距、边距、填充*/
 body{
     font-family: arial,italic,sans-serif;
-    background-color: white;
+    font-size: 1rem;
+    background-color: #d0d0d0;
     text-align: center;
-    line-height: 14pt;
+    line-height: 28pt;
     margin: 80px 100px;
     padding: 10px;
     }
+
+
+.lianjie{
+    width: auto;
+    background-color: #c9bdbd;
+    margin: auto;
+    padding: 50px 0;
+    
+}
+
+
+.lianjie h3{
+    text-align: left;
+    color: gray;
+    margin-left: 55px;
+}
+
+/*
+@media screen and (max-width: 480px){
+.lianjie li{
+    width: 33.33333%!important;
+    padding: 0!important;
+    }
+
+.lianjie ul {
+    padding: 6px 0;
+    border-bottom: 1px solid #eaeaea;
+}*/
     
 
-/*关闭链接下划线、文本颜色*/
-a{
+
+.lianjie ul{
+    display: flex;
+    display:-webkit-flex;
+    flex-wrap: wrap;
+}
+
+
+.lianjie li{
+    overflow: hidden;
+    margin: 0 5px;
+    padding: 0 7.5px;
+}
+
+
+/*使a标签成为块状元素、宽度、关闭链接下划线、背景、文本颜色、边距、填充*/
+.lianjie a{
+    display: block;
+    width: 120px;
     text-decoration: none;
+    background-color: thistle;
     color: gray;
-    }
+    margin: 5px;
+    padding: 15px;
+}
 
 
 /*指针放在链接上时显示的颜色（未单击）*/
-a:hover{
-    color: rgb(194, 30, 126);
-}
-
-
-/*表格居中、左右及上下边距、列宽、行高、填充、文本居中*/
-table{
-    margin: 0px auto;
-    border-spacing:20px 10px;
-    width: 820px;
-    height: 50px;
-    padding: 20px 25px;
-    text-align: center;
-}
-
-/*表格为1px的白色单线边框、背景、列宽比例、填充*/
-td{
-    border: 1px solid white;
-    background-color: #d0d0d0;
-    width: 25%;
-    padding: 15px 25px;
-    
+.lianjie a:hover{
+    background-color: rgb(161, 152, 152);
+    color: rgb(226, 35, 147);
 }
