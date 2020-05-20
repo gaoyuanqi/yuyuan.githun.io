@@ -14,8 +14,7 @@ body{
 
 
 .lianjie{
-    position: relative;
-    width: auto;
+    width: 100%;
     background-color: #c9bdbd;
     margin: auto;
     padding: 50px 0;
