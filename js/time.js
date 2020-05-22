@@ -25,6 +25,8 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 
+
+
 /*显示中国标准时间*/
 now = new Date();
 localtime = now.toString();

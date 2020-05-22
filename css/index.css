@@ -13,53 +13,23 @@ body{
     }
 
 
+
+.leibie{
+    margin: 50px;
+}
+
+
 .lianjie{
-    width: 100%;
-    background-color: #c9bdbd;
-    margin: auto;
-    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    align-items: center;
+    gap: 5px 60px;
     
 }
 
 
-.lianjie h3{
-    text-align: left;
-    color: gray;
-    margin-left: 55px;
-}
-
-/*
-@media screen and (max-width: 480px){
-.lianjie li{
-    width: 33.33333%!important;
-    padding: 0!important;
-    }
-
-.lianjie ul {
-    padding: 6px 0;
-    border-bottom: 1px solid #eaeaea;
-}*/
-    
-
-
-.lianjie ul{
-    display: flex;
-    display:-webkit-flex;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-
-.lianjie li{
-    overflow: hidden;
-    margin: 0 5px;
-    padding: 0 7.5px;
-}
-
-
-/*使a标签成为块状元素、宽度、关闭链接下划线、背景、文本颜色、边距、填充*/
+/*宽度、关闭链接下划线、背景、文本颜色、边距、填充*/
 .lianjie a{
-    display: block;
     width: 120px;
     text-decoration: none;
     background-color: thistle;
