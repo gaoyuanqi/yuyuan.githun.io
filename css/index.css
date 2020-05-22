@@ -22,7 +22,6 @@ body{
 .lianjie{
     display: grid;
     grid-template-columns: repeat(auto-fill, 120px);
-    align-items: center;
     gap: 5px 60px;
     
 }
@@ -41,6 +40,6 @@ body{
 
 /*指针放在链接上时显示的颜色（未单击）*/
 .lianjie a:hover{
-    background-color: rgb(161, 152, 152);
+    background-color: rgb(179, 176, 176);
     color: rgb(226, 35, 147);
 }
