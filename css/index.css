@@ -4,42 +4,43 @@
 /*字体系列、文本大小、背景颜色、文本颜色、文本居中、行距、边距、填充*/
 body{
     font-family: arial,italic,sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     background-color: #d0d0d0;
     text-align: center;
-    line-height: 28pt;
-    margin: 80px 100px;
-    padding: 10px;
+    line-height: 1.75rem;
+    margin: 5rem;
+    padding: .625rem;
     }
 
 
 
 .leibie{
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 
 .lianjie{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 120px);
-    gap: 5px 60px;
-    
+    grid-template-columns: repeat(auto-fill, 7.5rem);
+    gap: .3125rem 3.75rem;
 }
 
 
 /*宽度、关闭链接下划线、背景、文本颜色、边距、填充*/
 .lianjie a{
-    width: 120px;
+    width: 7.5rem;
     text-decoration: none;
     background-color: thistle;
     color: gray;
-    margin: 5px;
-    padding: 15px;
+    margin: .3125rem;
+    padding: .9375rem;
+    transition: all .5s ease-out
+    ;
 }
 
 
 /*指针放在链接上时显示的颜色（未单击）*/
 .lianjie a:hover{
     background-color: rgb(179, 176, 176);
-    color: rgb(226, 35, 147);
+    color: rgb(182, 18, 114);
 }
