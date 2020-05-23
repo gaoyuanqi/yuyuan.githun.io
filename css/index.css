@@ -38,7 +38,6 @@ body{
     ;
 }
 
-
 /*指针放在链接上时显示的颜色（未单击）*/
 .lianjie a:hover{
     background-color: rgb(179, 176, 176);
